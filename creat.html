@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="creat.css">
+    <title>Tạo Hồ Sơ</title>
+</head>
+<body>
+    <div class="header">
+        <h1>TẠO HỒ SƠ - CHECKINFO.SITE</h1>
+    </div>
+    <form action="/xuly.php" method="POST" >
+        <div class="container">
+          
+          <p>Xin hãy nhập biểu mẫu bên dưới để đăng ký.</p>
+          <hr>
+      
+          <label for="name"><b>Họ Và Tên (*)</b></label>
+          <input type="text" placeholder="Họ Và Tên" name="Họ Và Tên" required>
+      
+          <label for="phone"><b>Số Điện Thoại (*)</b></label>
+          <input type="text" placeholder="Số Điện Thoại" name="phone" required>
+      
+          <label for="address"><b>Sống Tại (*)</b></label>
+          <input type="text" placeholder="Ví Dụ: Bến Tre, Việt Nam" name="address" required>
+
+          <label for="ZALO"><b>URL ZALO (*)</b></label>
+          <input type="text" placeholder="Ví Dụ: 0943387437" name="zalo" required>
+
+          <label for="facebook"><b>URL FACEBOOK OR USERNAME (*)</b></label>
+          <input type="text" placeholder="Ví Dụ:facebook.com/im.nchanh hoặc im.nchanh" name="faceook" required>
+          
+          <label for="ẢVT"><b>ẢNH ĐẠI DIỆN CHO HỒ SƠ (*)</b></label>
+          <input type="file" placeholder="Ảnh Đại Diện" name="avt" required> </br>
+        </br> </br>
+
+          <label for="story"><b>Tiểu Sử Hoặc Thông Tin Bổ Sung (*)</b></label>
+          <input type="text" placeholder="Nhập Theo Ý Muốn" name="story" required>
+      
+          <label>
+            <input type="checkbox" checked="checked" name="verify" style="margin-bottom:15px"> TÔI XÁC NHẬN THÔNG TIN TÔI ĐƯA LÀ CHÍNH XÁC
+          </label>
+      
+          <div class="clearfix">
+            <button type="submit" class="signupbtn">TẠO HỒ SƠ</button>
+          </div>
+        </div>
+      </form>
+      
+</body>
+</html>

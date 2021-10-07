@@ -1,0 +1,116 @@
+
+.background{
+    background-image:url(https://cdn.pixabay.com/photo/2018/02/23/04/38/laptop-3174729_960_720.jpg);
+}
+.header{
+    color:rgb(148, 20, 20);
+    text-align: center;
+    margin-top: 200px;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+#log {
+    color:chocolate;
+    font-size: 20px;
+    text-align: center;
+}
+.button a{
+    text-decoration: none;
+    color:rgb(255, 255, 255);
+}
+.snip1582 {
+    background-color: #d12305;
+    border: none;
+    color: #ffffff;
+    cursor: pointer;
+    display: inline-block;
+    font-family: 'BenchNine', Arial, sans-serif;
+    font-size: 1em;
+    font-size: 22px;
+    line-height: 1em;
+    margin: 15px 40px;
+    outline: none;
+    padding: 12px 40px 10px;
+    position: relative;
+    text-transform: uppercase;
+    font-weight: 700;
+    margin-left: 580px;
+  }
+  
+  .snip1582:before,
+  .snip1582:after {
+    border-color: transparent;
+    -webkit-transition: all 0.25s;
+    transition: all 0.25s;
+    border-style: solid;
+    border-width: 0;
+    content: "";
+    height: 24px;
+    position: absolute;
+    width: 24px;
+  }
+  
+  .snip1582:before {
+    border-color: #db3822;
+    border-top-width: 2px;
+    left: 0px;
+    top: -5px;
+  }
+  
+  .snip1582:after {
+    border-bottom-width: 2px;
+    border-color: #db3822;
+    bottom: -5px;
+    right: 0px;
+  }
+  
+  .snip1582:hover,
+  .snip1582.hover {
+    background-color: #db3822;
+  }
+  
+  .snip1582:hover:before,
+  .snip1582.hover:before,
+  .snip1582:hover:after,
+  .snip1582.hover:after {
+    height: 100%;
+    width: 100%;
+  }
+  .banner{
+      color:rgb(197, 40, 19);
+      font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+      text-align: center;
+      margin-top: -400px;
+      font-size: 35px;
+  }
+  .footer{
+      margin-top: 345px;
+      text-align: center;
+      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+      font-size: 12px;
+      color: rgb(0, 0, 0);
+      
+  }
+  .footer a{
+    text-decoration: none;
+    color:rgb(0, 0, 0);
+  }
+  .snip1583 {
+    background-color: #d12305;
+    border: none;
+    color: #ffffff;
+    cursor: pointer;
+    display: inline-block;
+    font-family: 'BenchNine', Arial, sans-serif;
+    font-size: 1em;
+    font-size: 22px;
+    line-height: 1em;
+    margin: 15px 40px;
+    outline: none;
+    padding: 12px 40px 10px;
+  
+    text-transform: uppercase;
+    font-weight: 700;
+    margin-left: 570px;
+  }
+  
